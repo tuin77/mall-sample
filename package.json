@@ -1,0 +1,36 @@
+{
+  "name": "ingtube-mall",
+  "version": "1.0.0",
+  "description": "映兔杂货铺小程序",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yan223/ingtube.git"
+  },
+  "keywords": [
+    "mall",
+    "uniapp",
+    "WeChat"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yan223/ingtube/issues"
+  },
+  "homepage": "https://github.com/yan223/ingtube#readme",
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.4",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/eslint-config-typescript": "^11.0.0",
+    "eslint": "^8.20.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  }
+}
