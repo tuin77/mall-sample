@@ -22,6 +22,9 @@ module.exports = {
     "vue/multi-word-component-names": "off",
   },
   globals: {
+    module: true,
+    require: true,
+    process: true,
     uni: true,
     wx: true,
   },

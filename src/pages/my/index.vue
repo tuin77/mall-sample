@@ -202,9 +202,8 @@ export default {
   border-radius: 8px;
   background-color: #fff;
 
-  /deep/.u-cell__body {
+  ::v-deep .u-cell__body {
     height: 52px;
-
     .u-cell__title-text {
       font-size: 14px;
       color: #000;
@@ -218,7 +217,7 @@ export default {
 
 .my-order {
   // margin-bottom: 12px;
-  .u-cell__title-text {
+  ::v-deep .u-cell__title-text {
     font-weight: 500;
     color: #3e3d3e;
   }

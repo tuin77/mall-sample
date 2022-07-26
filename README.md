@@ -1,10 +1,21 @@
-# ingtube-mall
-## 杂货铺微信小程序
-### 遇到问题  
-[Eslint + Prettier 统一开发规范](https://github.com/ynzy/vite-vue3-template#prettier)  
-npm i -D eslint eslint-plugin-vue prettier @vue/eslint-config-prettier @vue/eslint-config-typescript @rushstack/eslint-patch  
-.eslintrc.js .prettierc.js .vscode/settings.json  
+# my-project
 
-husky + lint-staged 提交校验  
-npm i -D husky lint-staged  
-.lintstagedrc.json  
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve 在浏览器中运行
+yarn dev:mp-weixin 将dist/dev/mp-weixin导入微信开发者工具中实时预览
+yarn build:mp-weixin 打包
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
