@@ -6,26 +6,22 @@ module.exports = {
   extends: [
     "plugin:vue/vue3-essential",
     "eslint:recommended",
-    "@vue/eslint-config-typescript/recommended",
     "@vue/eslint-config-prettier",
   ],
   env: {
     "vue/setup-compiler-macros": true,
+    browser: true,
+    es6: true,
+    node: true,
   },
   parserOptions: {
     ecmaVersion: 12,
   },
   rules: {
     "prettier/prettier": "warn",
-    "@typescript-eslint/no-explicit-any": "off",
-    "@typescript-eslint/no-unused-vars": "off",
     "vue/multi-word-component-names": "off",
   },
   globals: {
-    module: true,
-    require: true,
-    process: true,
     uni: true,
-    wx: true,
   },
 };

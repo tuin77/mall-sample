@@ -31,7 +31,9 @@ if (
         },
       },
     ]);
-  } catch (e) {}
+  } catch (e) {
+    console.log(e);
+  }
 }
 
 process.UNI_LIBRARIES = process.UNI_LIBRARIES || ["@dcloudio/uni-ui"];

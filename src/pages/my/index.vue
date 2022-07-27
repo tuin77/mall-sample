@@ -115,9 +115,10 @@ export default {
   },
   onLoad() {
     console.log();
+    // this.getData();
   },
   methods: {
-    orderGridClick(status) {
+    orderGridClick() {
       // if (status == 99) {
       //   uni.navigateTo({
       //     url: `/pages/order/index?status=${status}`

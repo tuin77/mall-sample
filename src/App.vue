@@ -9,6 +9,18 @@ export default {
   onHide: function () {
     console.log("App Hide");
   },
+  methods: {
+    async getData() {
+      const [err, res] = await uni.login({
+        provider: "weixin",
+      });
+      console.log(err);
+      let r = await this.$api.wxLogin({
+        wechat_code: res.code,
+      });
+      console.log(121, r);
+    },
+  },
 };
 </script>
 
